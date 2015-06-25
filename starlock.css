@@ -1,0 +1,140 @@
+*{
+margin:0px;
+padding:0px;
+}
+
+body{
+background-image:url(images/background.jpg);
+background-position:center;
+background-size:100%;
+background-color:black;
+}
+
+div.menu-bg{
+width:auto;
+height:200px;
+border-bottom-width:5px;
+border-bottom-style:solid;
+border-bottom-color:rgba(163,73,164,1);
+background-color:rgba(225,225,225,0.75);
+background-repeat:no-repeat;
+background-image:url(images/logo.gif);
+background-size:700px 200px;
+background-position:center;
+}
+div.menu{
+text-align:center;
+}
+div.menu ul{
+display:inline-table;
+margin-top:167px;
+white-space:nowrap
+}
+div.menu ul li{
+display:inline-table;
+}
+div.menu ul li.end a{
+border-right:1px solid;
+border-right-color:rgba(163,73,164,1);
+}
+div.menu ul li a{
+background-color:rgba(200,200,200,0.5);
+text-decoration:none;
+color:black;
+font-family:ar destine;
+font-size:20px;
+padding:10px;
+border-left:1px solid;
+border-left-color:rgba(163,73,164,1);
+overflow:hidden;
+}
+div.menu ul li.login  a{
+margin-left:65px;
+}
+div.menu ul li a:hover{
+background-color:rgba(150,150,150,0.75);
+border-top:1px solid;
+border-top-color:rgba(163,73,164,1);
+padding-top:9px;
+}
+div.menu ul li a.active{
+background:rgba(150,150,150,0.75);
+border-top:1px solid;
+border-top-color:rgba(163,73,164,1);
+padding-top:9px;
+color:rgba(163,73,164,1);
+}
+
+div.content{
+margin:auto;
+width:980px;
+border-left-width:5px;
+border-left-color:rgba(163,73,164,1);
+border-left-style:solid;
+border-right-width:5px;
+border-right-color:rgba(163,73,164,1);
+border-right-style:solid;
+background-color:rgba(225,225,225,0.75);
+}
+div.content h1{
+padding-left:60px;
+padding-top:30px;
+font-family:ar destine;
+font-size:50px;
+text-decoration:underline;
+}
+div.content p{
+font-family:verdana;
+font-size:20px;
+padding-left:30px;
+padding-bottom:20px;
+padding-right:30px;
+padding-top:30px;
+}
+
+div.footer{
+width:990px;
+margin:auto;
+margin-bottom:20px;
+text-align:center;
+background-color:rgba(163,73,164,1);
+}
+div.footer ul li{
+display:inline-table;
+font-family:ar destine;
+font-size:20px;
+padding:5px 20px;
+overflow:hidden;
+color:rgba(225,225,175,1);
+}
+div.footer ul li a{
+text-decoration:none;
+color:rgba(225,225,175,1);
+}
+div.footer ul li a:hover{
+text-decoration:underline;
+color:yellow;
+}
+
+button.aboutUs{
+color:rgba(225,225,175,1);
+background-color:rgba(163,73,164,1);
+border:none;
+font-size:20px;
+font-family:ar destine;
+}
+button.aboutUs:hover{
+text-decoration:underline;
+color:yellow;
+}
+div.aboutUs{
+display:none;
+background-color:rgba(225,225,225,0.75);
+width:400px;
+border:5px solid rgba(163,73,164,1);
+text-align:center;
+margin:auto;
+margin-bottom:20px;
+font-size:20px;
+font-family:ar destine;
+};
